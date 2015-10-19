@@ -1,4 +1,4 @@
-package cn.jsfund-licaijie.location;
+package cn.jsfund-.icaijie.location;
 
 import com.tencent.map.geolocation.TencentLocation;
 import com.tencent.map.geolocation.TencentLocationListener;

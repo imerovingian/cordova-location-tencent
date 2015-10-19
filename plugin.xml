@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<plugin id="cn.jsfund-licaijie.location" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+<plugin id="cn.jsfund.licaijie.location" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
     <name>Location</name>
     <DESCRIPTION>location in app plugin for jiashi-licaijie</DESCRIPTION>
     <js-module name="location" src="www/tx_location.js">
@@ -21,7 +21,7 @@
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="Location">
-                <param name="android-package" value="cn.jsfund-licaijie.location.CDVLocation" />
+                <param name="android-package" value="cn.jsfund.licaijie.location.CDVLocation" />
             </feature>
         </config-file>
         <config-file target="AndroidManifest.xml" parent="/*">
@@ -38,7 +38,7 @@
         <!-- <config&#45;file target="AndroidManifest.xml" parent="/manifest/application"> -->
             <!-- <meta&#45;data android:name="TencentMapSDK" android:value="IBKBZ&#45;EWKH4&#45;AZZUL&#45;DAOBQ&#45;HBWP2&#45;JJFD7" /> -->
         <!-- </config&#45;file> -->
-        <source-file src="src/android/CDVLocation.java" target-dir="src/cn/jsfund-licaijie/location" />
+        <source-file src="src/android/CDVLocation.java" target-dir="src/cn/jsfund/licaijie/location" />
         <source-file src="src/android/TencentLocationSDK_v4.2.0_r150819.jar" target-dir="libs"/>
         <source-file src="src/android/armeabi/libtencentloc.so" target-dir="libs/armeabi"/>
         <source-file src="src/android/armeabi-v7a/libtencentloc.so" target-dir="libs/armeabi-v7a"/>
