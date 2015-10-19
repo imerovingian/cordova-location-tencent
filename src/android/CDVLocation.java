@@ -50,10 +50,13 @@ public class CDVLocation extends CordovaPlugin implements TencentLocationListene
             double latitude = tencentLocation.getLatitude();
             double longitude = tencentLocation.getLongitude();
             String cityCode = tencentLocation.getCityCode();
+            String cityName = tencentLocation.getCity();
             try {
                 result.put("longitude", longitude);
                 result.put("latitude", latitude);
                 result.put("cityCode", cityCode);
+                result.put("cityName", cityName);
+
             } catch (JSONException e) {
                 e.printStackTrace();
             }
